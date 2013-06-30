@@ -1,7 +1,7 @@
 package com.circlebear.scord.golf.enums;
 
 /**
- * Enum to hold the different types of sufaces.
+ * Enum to hold the different types of surfaces.
  * 
  * @author Dan Wiechert
  */
