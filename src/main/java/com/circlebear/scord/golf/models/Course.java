@@ -32,7 +32,7 @@ public class Course {
 	 * @param hole
 	 *            The hole to add.
 	 */
-	private void addHole(final Hole hole) {
+	public void addHole(final Hole hole) {
 		for (final Hole addedHole : holes) {
 			if (addedHole.getNumber() == hole.getNumber()) {
 				throw new IllegalArgumentException("A hole already exists with the number " + hole.getNumber() + ".");
